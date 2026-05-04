@@ -24,9 +24,11 @@ export function Hero() {
             Hi, I'm Lann — an Informatics student who loves building clean, functional, and beautiful web experiences. Currently open for freelance projects and collaborations.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button size="lg" className="rounded-full bg-[image:var(--gradient-primary)] hover:opacity-90 shadow-[var(--shadow-soft)] px-7">
-              Contact Us <ArrowRight className="ml-1 w-4 h-4" />
-            </Button>
+            <a href="https://wa.me/6285783336509?text=Hi%20Lann,%20I%20want%20to%20discuss%20a%20project" target="_blank" rel="noopener noreferrer">
+          <Button size="lg" className="rounded-full bg-[image:var(--gradient-primary)] hover:opacity-90 shadow-[var(--shadow-soft)] px-7">
+            Contact Us <ArrowRight className="ml-1 w-4 h-4" />
+          </Button>
+          </a>
             <Button size="lg" variant="outline" className="rounded-full bg-card px-7">
               <Play className="w-4 h-4 mr-1" /> Portfolio
             </Button>

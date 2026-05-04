@@ -10,8 +10,8 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Arjun — UI & UX Designer Portfolio" },
-      { name: "description", content: "Portfolio of Arjun, a UI/UX designer crafting thoughtful digital experiences for startups and brands." },
+      { title: "Lann — Developer Portfolio" },
+      { name: "description", content: "Portfolio of Lann, a developer crafting thoughtful digital experiences for startups and brands." },
     ],
   }),
 });
